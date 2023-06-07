@@ -1,0 +1,122 @@
+#server-img img {
+  width: 300px;
+  height: 300px;
+}
+#server-img {
+  animation: 1s slideright;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+}
+button {
+  border: 1px solid #ffffff;
+  background-color: #047aed;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  border-radius: 7px;
+  width: 170px;
+  font-size: 17px;
+  transition: 0.15s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+/* big section */
+.big-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 100px;
+  padding-inline: 50px;
+}
+
+/* Essentials */
+.essentials {
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  padding: 30px;
+  margin: 10px;
+  width: 35%;
+  border-radius: 10px;
+}
+.essentials p {
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  border-bottom: 1px solid #cccccc;
+}
+.essentials h3 {
+  margin-block: 15px;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.essentials p:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+#blue {
+  color: blue;
+}
+#blue:hover {
+  font-weight: bolder;
+}
+/* Introduction section */
+.introduction {
+  width: 55%;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+.introduction h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-block: 15px;
+}
+.introduction h3 {
+  font-size: 19px;
+  font-weight: bolder;
+  margin-block: 15px;
+}
+.introduction p {
+  font-size: 16px;
+  margin-block: 10px;
+  line-height: 1.6;
+}
+.greenblock {
+  background-color: #5cb85c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  padding-left: 15px;
+}
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .big-cont {
+    flex-direction: column;
+  }
+  .essentials {
+    width: 80%;
+  }
+  .introduction {
+    width: 80%;
+  }
+}
